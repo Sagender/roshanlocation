@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roshanlocation</title>
+    <link rel="icon" type="image/png" href="Imagen/logo 2.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="Indie_Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contactos.css">
+    <link rel="stylesheet" href="mood.css" id="theme">
+</head>
+<header class="contenedor">
+    <div class="cabecera">
+        <div id="logo">
+            <figure class="Imagenlogo"><img width="160" height="160" src="Imagen/Logo.png" alt="Logoroshanlocation"></figure>
+        </div>
+        <div id="suscripcion">
+            <form  class="correo" action="/suscripcion/"><input type="text"
+                    placeholder="Tu correo electrónico"><button>Suscribirse</button>
+            </form>
+        </div> </div>
+</header>
+        <div>
+            <nav id="menu">
+                <ul id="menu_principal">
+                  <img  width="40" height="60" src="Imagen/menu.svg" />
+                  <li><a href="index.html"> <strong>Inicio</strong></a></li>
+                  <li><a href="noticias.html"><strong>Noticias</strong></a></li>
+                  <li><a href="trucosguias.html"><strong>Guias y trucos</strong></a></li>
+                  <li><a href="contactos.html"><strong>Contáctanos</strong></a></li>
+                  <img  width="40" height="60" src="Imagen/menu.svg" />
+              </ul>
+          </nav>
+
+        </div>
+<body class="fondo">
+    <div class="subfondo">
+        <div>
+            <button onclick="switchSheet()">&#x263e;</button>
+          </div>
+              <script src="modonoche.js"></script>
+              <main class="contenedor sombra">
+                <section id="contacto">
+                    <form class="formulario-contacto">
+                        <fieldset>
+                            <legend>Formulario de contacto</legend>
+                            <div class="contenedor-campos">
+                                <div class="campo">
+                                    <label>Nombre:</label>
+                                    <input id="nombre" class="input-text" type="text" placeholder="ingresa tu nombre">
+                                </div>
+                                <div class="campo">
+                                    <label for="">Telefono</label>
+                                    <input id="telefono" class="input-text" type="number" placeholder="ingresa tu teléfono">
+                                </div>
+                                <div class="campo">
+                                    <label>Correo:</label>
+                                    <input id="correo" class="input-text" type="email" placeholder="ingresa tu correo">
+                                </div>
+                                <div class="campo">
+                                    <label>Mensaje:</label>
+                                    <textarea id="mensaje" class="input-text" maxlength="10"></textarea>
+                                </div>
+                            </div>
+                            <div class="enviar">
+                                <input id="botonEnviar" class="boton" type="submit" value="Enviar">
+                            </div>
+                        </fieldset>
+                    </form>
+                </section>
+            </main>
+            <div>
+             <!--Inicia-- Footer-->
+             <footer class="footer">
+                <div class="footer-left">
+                    <img src="./imagenes de trucosguias/logo 2.png" alt="">
+                    <p>"Roshanlocation" destinado a una pagina de videOjuegos. Conoce más sobre nosotros en las siguientes redes sociales! :)</p>
+                    <div class="socials">
+                        <a href="#"><img src="./imagenes de trucosguias/01.png"></i></a>
+                        <a href="#"><img src="./imagenes de trucosguias/02.png"></i></a>
+                        <a href="#"><img src="./imagenes de trucosguias/03.png"></i></a>
+                        <a href="#"><img src="./imagenes de trucosguias/04.png"></i></a>
+                        <a href="#"><img src="./imagenes de trucosguias/05.png"></i></a>
+                    </div>
+                </div>
+                <ul class="footer-right">
+                    <li>
+                        <h2>A la Vanguardia</h2>
+  
+                        <ul class="box">
+                            <li><a href="#">Ultimas Noticias de Juegos</a></li>
+                            <li><a href="#">XBOXONE</a></li>
+                            <li><a href="#">SONY</a></li>
+                            <li><a href="#">NINTENDO</a></li>
+                        </ul>
+                     </li>
+                     <li class="features">
+                        <h2>SubPaginas</h2>
+  
+                        <ul class="box">
+                            <li><a href="#">Noticias</a></li>
+                            <li><a href="#">Guias&Trucos</a></li>
+                            <li><a href="#">Contactanos</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <h2>Address</h2>
+  
+                        <ul class="box">
+                            <li><a href="#">127, AV. AREQUIPA</a></li>
+                            <li><a href="#">ALT20 MANZ25, TORRES UGARTE</a></li>
+                            <li><a href="#">LIMA, PERÚ</a></li>
+                            <li><a href="#">CERTUS CICLO I</a></li>
+                        </ul>
+                     </li>
+                </ul>
+            </footer>
+            <!--Termina Footer--></div>
+        </div>
+           
+</body>
+
+</html>

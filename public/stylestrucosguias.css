@@ -1,0 +1,325 @@
+    /***header**/
+    
+    .fondo {
+        padding: 1em;
+        background-image: url(Imagen/fondo.jpeg);
+        margin-right: 3.5em;
+        margin-left: 3.5em;
+        margin-bottom: 3.5em;
+        margin-top: 3.5em;
+    }
+    
+    .subfondo {
+        background-image: url(Imagen/subfondo.jpg);
+        padding-block-end: -3em;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    
+    
+    #cabecera,
+    #logo {
+        float: left;
+        width: 10em;
+    }
+    
+    #imagenlogo {
+        width: 2em;
+        height: 2em;
+    }
+    
+    #cabecera,
+    #suscripcion {
+        float: right;
+        padding-top: 2em;
+        margin-top: 2em;
+        margin-right: 0em;
+    }
+    
+    #cabecera,
+    #menu {
+        border: 4px;
+        background-color: #f2aa1f;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        padding: 0;
+    }
+    
+    #cabecera {
+        clear: both;
+    }
+    
+    html {
+        font-size: 80%;
+        box-sizing: border-box;
+        scroll-snap-type: y mandatory;
+    }
+    /**estilo de menu**/
+    
+    #menu {
+        width: 100%;
+        margin-top: 5px;
+    }
+    
+    #menu_principal {
+        color: #fff;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 55px;
+        font-family: Indie Flower, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        list-style-type: none;
+        font-size: 2em;
+        margin: auto
+    }
+    
+    h1 {
+        font-size: xx-large;
+        color: black;
+        border: 0px solid #999;
+        background-color: #BB9737;
+        border-radius: 20px;
+        text-align: center;
+        padding: 17px;
+        margin-right: 332px;
+    }
+    
+    .figure {
+        position: absolute;
+    }
+    
+    .cabezera {
+        display: flex;
+        font-size: 1em;
+        padding: 0.5em;
+        border-radius: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: space-between;
+        align-items: center;
+        background-color: aquamarine;
+    }
+    
+    .titulo {
+        text-align: center;
+        border: 0px solid #999;
+        border-radius: 20px;
+        background-color: #BB9737;
+        padding: 0.5em;
+        margin-bottom: 21px;
+        margin-left: 41px;
+        margin-top: 4px;
+        margin-right: 332px;
+    }
+    /***body**/
+    
+    .trucos {
+        border: 0px solid #999;
+        box-sizing: border-box;
+        color: #444;
+        margin: 5.2%;
+        padding: 1em;
+        width: 41.9%;
+        display: inline-block;
+        background-color: #60799B;
+        margin-right: 1.2em;
+        border-radius: 20px;
+    }
+    
+    section {
+        font-size: 100%;
+    }
+    
+    .detalles {
+        width: 217px;
+        height: 122px;
+        object-fit: cover;
+        object-position: 48% 55%;
+        padding-left: 0px;
+        padding-right: 20px;
+        padding-top: 1px;
+        text-align: center;
+    }
+    
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-family: Indie Flower, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 2em;
+        padding-left: 2em;
+    }
+    
+    .cuadro {
+        float: right;
+    }
+    
+    .tamaño {
+        width: 60%;
+        display: flex-column;
+    }
+    
+    .video {
+        float: right;
+        padding: 4px;
+        font-size: 30%;
+    }
+    
+    .guias-contenedor {
+        width: 250px;
+        padding-left: 20px;
+    }
+    
+    .guias-parafo {
+        background-attachment: fixed;
+        font-family: Indie Flower, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        font-size: small;
+    }
+    
+    .guias-titulo {
+        border: 0;
+        padding-left: 23px;
+        padding-right: 20px;
+        text-align: center;
+        color: black;
+    }
+    /***footer***/
+    
+    .root {
+        margin-top: 3em;
+        border: 4px;
+        background-color: #f2aa1f;
+        width: 100%;
+        color: black;
+        font-family: Indie Flower, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1em;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        padding: 0;
+    }
+    
+    .end {
+        float: right;
+        color: white
+    }
+    
+    .social {
+        padding: 20px;
+    }
+    /**carousel**/
+    
+    .carousel {
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+    }
+    
+    #imagen {
+        width: 97%;
+        height: 320px;
+        background-size: cover;
+    }
+    /*boton de noche**/
+    
+    .button {
+        padding: 45px auto;
+    }
+  /**FOOTER**/
+
+footer{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap; 
+    padding: 50px;
+    color: white;
+}
+.footer > *{
+    flex: 1 100%;
+}
+.footer-left{
+    margin-right: 1.25em;
+    margin-bottom: 2em; 
+}
+.footer-left img{
+    width: 50%;
+}
+h2{
+    font-weight: 600;
+    font-size: 17px; 
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+footer li{
+    line-height: 2em;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer-right{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+}
+.footer-right > *{
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+.box a{
+    color:rgb(10, 7, 7);
+    font-family:Indie Flower, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer-bottom{
+    text-align: center;
+    padding-top: 50px;
+}
+.footer-left p{
+    padding-right: 20%;
+    color: rgb(32, 17, 112);
+}
+.socials a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.socials a i{
+    color: #e7f2f4;
+    padding: 10px 12px;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 600px){
+    .footer-right > *{
+        flex: 1;
+    }
+    .footer-left{
+        flex: 1 0px;
+    }
+    .footer-right{
+        flex: 2 0px;
+    }
+}
+
+@media (max-widht: 600px){
+    .footer{
+        padding: 15px;
+    }
+    main{
+        font-size: 55px;
+    }
+}
+/**FOOTER**/
+/****************RESPONSIVE***********************/
