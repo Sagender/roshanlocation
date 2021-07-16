@@ -434,6 +434,27 @@ footer li{
     .footer-right{
         flex: 2 0px;
     }
+    .articulo {
+        flex: 1 ;
+    }
+    .destacado {
+        flex: 1;
+    }
+    .imagen{
+        flex: 1;
+    }
+    .contenido-hero{
+        flex:1;
+    }
+    .fondo{
+        flex 2;
+    }
+    .subfondo{
+        flex: 2;
+    }
+    .articulo{
+        flex: 1;
+    }
 }
 
 @media (max-widht: 600px){
