@@ -455,6 +455,9 @@ footer li{
     .articulo{
         flex: 1;
     }
+    #menuprincipal{
+        flex: 1;
+            }
 }
 
 @media (max-widht: 600px){
