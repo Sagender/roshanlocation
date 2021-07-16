@@ -434,6 +434,15 @@ footer li{
     .footer-right{
         flex: 2 0px;
     }
+    .articulo {
+        flex: 1 ;
+    }
+    .destacado {
+        flex: 1;
+    }
+    .imagen{
+        flex: 1;
+    }
 }
 
 @media (max-widht: 600px){
