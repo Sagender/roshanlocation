@@ -443,6 +443,18 @@ footer li{
     .imagen{
         flex: 1;
     }
+    .contenido-hero{
+        flex:1;
+    }
+    .fondo{
+        flex 2;
+    }
+    .subfondo{
+        flex: 2;
+    }
+    .articulo{
+        flex: 1;
+    }
 }
 
 @media (max-widht: 600px){
