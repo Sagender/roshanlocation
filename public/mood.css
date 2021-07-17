@@ -459,6 +459,13 @@ footer li{
         flex: 1;
             }
 }
+.hero{
+    flex:1;
+    }
+.social{
+    flex:1;
+}
+
 
 @media (max-widht: 600px){
     .footer{
