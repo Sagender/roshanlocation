@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="contactos.css">
     <link rel="stylesheet" href="mood.css" id="theme">
+    <script src="../javascript/jquery-3.6.0.js"></script>
+    <script src="contactos.js"></script>
 </head>
 <header class="contenedor">
     <div class="cabecera">
@@ -44,38 +46,42 @@
           </div>
               <script src="modonoche.js"></script>
               <main class="contenedor sombra">
-                <section id="contacto">
-                    <form class="formulario-contacto">
-                        <fieldset>
-                            <legend>Formulario de contacto</legend>
-                            <div class="contenedor-campos">
-                                <div class="campo">
-                                    <label>Nombre:</label>
-                                    <input id="nombre" class="input-text" type="text" placeholder="ingresa tu nombre">
-                                </div>
-                                <div class="campo">
-                                    <label for="">Telefono</label>
-                                    <input id="telefono" class="input-text" type="number" placeholder="ingresa tu teléfono">
-                                </div>
-                                <div class="campo">
-                                    <label>Correo:</label>
-                                    <input id="correo" class="input-text" type="email" placeholder="ingresa tu correo">
-                                </div>
-                                <div class="campo">
-                                    <label>Mensaje:</label>
-                                    <textarea id="mensaje" class="input-text" maxlength="10"></textarea>
-                                </div>
-                            </div>
-                            <div class="enviar">
-                                <input id="botonEnviar" class="boton" type="submit" value="Enviar">
-                            </div>
-                        </fieldset>
+                <section class="form_wrap">
+            
+                    <section class="cantact_info">
+                        <section class="info_title">
+                            <span class="fa fa-user-circle"></span>
+                            <h2>INFORMACION<br>DE CONTACTO</h2>
+                        </section>
+                        <section class="info_items">
+                            <p><span class="fa fa-envelope"></span> RoshanLocation.contact@gmail.com</p>
+                            <p><span class="fa fa-mobile"></span> +1(585) 903-4567</p>
+        
+                        </section>
+                    </section>
+        
+                    <form action="" class="form_contact">
+                        <h2>Envia un Mensaje</h2>
+                        <div class="user_info">
+                            <label for="names">Nombres *</label>
+                            <input type="text" id="names"> 
+        
+                            <label for="phone">Telefono / Celular</label>
+                            <input type="text" id="phone">
+                            
+                            <label for="email">Correo Electronico *</label>
+                            <input type="text" id="email">
+        
+                            <label for="mensaje">Mensaje *</label>
+                            <textarea id="mensaje"></textarea>
+        
+                            <input type="button" value="Enviar Mensaje" id="btnSend">
+                        </div>
                     </form>
+        
                 </section>
-            </main>
-            <div>
-             <!--Inicia-- Footer-->
-             <footer class="footer">
+            <!--Inicia-- Footer-->
+            <footer class="footer">
                 <div class="footer-left">
                     <img src="./imagenes de trucosguias/logo 2.png" alt="">
                     <p>"Roshanlocation" destinado a una pagina de videOjuegos. Conoce más sobre nosotros en las siguientes redes sociales! :)</p>
@@ -119,9 +125,7 @@
                      </li>
                 </ul>
             </footer>
-            <!--Termina Footer--></div>
-        </div>
-           
+            <!--Termina Footer-->
 </body>
 
 </html>

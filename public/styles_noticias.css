@@ -3,48 +3,48 @@
   background-image: url(Imagen/fondo.jpeg);
   margin-right: 8em;
   margin-left: 8em;
-  flex: 2;
 }
 .subfondo{
   background-image: url(Imagen/subfondo.jpg);
   padding-block-end: -3em;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  flex: 2;
   }
 #cabecera, #logo {
   float: left;
   width: 10em;
-  flex: 2;
 }
 
 #imagenlogo {
   width: 2em;
   height: 2em;
-  flex: 2;
 }
 
 #cabecera, #suscripcion{
   float: right;
 padding-top: 2em;
 margin-top: 2em;
-margin-right: 2em;
-flex: 2;
-}
+margin-right: 2em;}
 
 #cabecera, #menu{ 
-  border: 4px ;
+  border: 4px;
+  width: 100%;
+  margin: 1px 80px;
+  max-width: 1000px;
+  min-width: 20px 500px;
   background-color: #f2aa1f;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  padding:0;
-  flex: 2;
+  padding: 0;
 }
 
 #menu {
   width: 100%;
+  max-width: 20px 1040px;
+  min-width: 20px 500px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 5px;
-  flex: 2;
 }
 #menu_principal {
   text-decoration: none;
@@ -55,7 +55,6 @@ flex: 2;
   font-family: Indie Flower, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   list-style-type: none;
   font-size: 2em;
-  flex: 2;
 }
 
 h1, h2 {
@@ -71,6 +70,7 @@ h2{padding-left: 3em;}
 p{      font-family: Indie Flower,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size:large;}
 .articulo {
+  width: 100%;
   display: flex;
   border: solid black;
   border-top-left-radius: 5px;
@@ -85,71 +85,47 @@ p{      font-family: Indie Flower,'Franklin Gothic Medium', 'Arial Narrow', Aria
   margin-right: 6em;
   margin-left: 6em;
   margin-block-end: 30px;
-  flex: 2;
+  max-width: 20px 1040px;
+  min-width: 551px 650px;
 }
 
 .figure {
   display: block;
   margin: auto;
-  width: 50%;
+  width: 60%;
   height: auto;
-  flex: 2;
 }
 
 .destacado, #h1 {
   text-align: center;
-  flex: 2;
 }
 
 .derecha {
   float: right;
-  flex: 2;
 }
 
 .izquierda {
   float: left;
-  flex: 2;
 }
 
-.root{
-  margin-top: 3em;
-  border: 4px ;
-  background-color: #f2aa1f;
-  width: 100%;
-  color:black;
-  font-family: Indie Flower,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size:1em;
-    border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  padding:0;
-  flex: 2;
-}
 .end{
   float: right;
-     color:white
-    }
-.social{
-padding: 20px;
-flex: 2;
+     color:white;
 }
 .texto{
   margin-left: 4em;
   margin-right: 12em;
   
-  flex: 2;
 }
 .carousel {
   max-width: 800px;
   margin: 0 auto;
   display: flex;
-  flex: 2;
 }
 #imagen {
-  
   width: 100%;
   height: 400px;
   background-size: cover;
-  flex: 2;
 }
 /**FOOTER**/
 
@@ -243,5 +219,6 @@ footer li{
       font-size: 55px;
   }
 }
-
+/**FOOTER**/
+/****************RESPONSIVE***********************/
 
