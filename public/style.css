@@ -118,16 +118,16 @@
         /*section- slider*/
         
         .container-slider {
-            margin: 50px 0;
-            padding: 10px;
-            overflow: hidden;
+            margin: 10px 0;
+            padding: 8px;
+            overflow:hidden;
         }
         
         .slider {
             display: flex;
             width: 400%;
             /*100 por cada imagen 500 por 5 imagenes*/
-            height: 300px;
+            height: 400px;
             /* Era 400*/
             margin-left: -100%;
             /* se agrego*/
@@ -151,7 +151,7 @@
         }
         
         .section-img {
-            display: block;
+            display:flexbox;
             width: 100%;
             height: 100%;
             object-fit: cover;
@@ -218,7 +218,7 @@
             padding: 10px;
             text-align: center;
             text-decoration: none;
-            width: 150px;
+            width: 100px;
             margin: 20px auto;
             transition: all 0.5s;
         }
