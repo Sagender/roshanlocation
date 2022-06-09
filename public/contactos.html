@@ -1,131 +1,242 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roshanlocation</title>
-    <link rel="icon" type="image/png" href="Imagen/logo 2.png">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="Indie_Flower" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="contactos.css">
-    <link rel="stylesheet" href="mood.css" id="theme">
-    <script src="../javascript/jquery-3.6.0.js"></script>
-    <script src="contactos.js"></script>
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="stylecontactos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Festive&family=Qahiri&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="icon" type="imagen/png" href="imagen/logobeta.jpeg">
+    <!--favicon debe ser-24x24, 16x16,32x32-->
 </head>
-<header class="contenedor">
-    <div class="cabecera">
-        <div id="logo">
-            <figure class="Imagenlogo"><img width="160" height="160" src="Imagen/Logo.png" alt="Logoroshanlocation"></figure>
+
+<body>
+    <header class="main-header">
+        <div class="container-flex">
+            <div class="main-header-container">
+                <h1 class="main-header-title">El tío import</h1>
+                <span class="icon-menu  " id="btn-menu"><i class="fas fa-bars"></i></span>
+                <nav class="main-nav" id="main-nav">
+                    <ul class="menu">
+                        <li class="menu-item"><a href="" class="menu-link">HOME</a></li>
+                        <li class="menu-item"><a href="" class="menu-link">ABOUT</a></li>
+                        <li class="menu-item"><a href="" class="menu-link">FEATURES</a></li>
+                        <li class="menu-item"><a href="Polos.html" class="menu-link">Polos</a></li>
+                        <li class="menu-item">
+                            <a href="" class="menu-link"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main-header-container">
+                <span class="main-header-txt">Need Help</span>
+                <p class="main-header-txt"><i class="fas fa-phone"></i> Call 123456</p>
+            </div>
+            <div class="main-header-container">
+                <a href="" class="main-header-link"><i class="fas fa-user"></i></a>
+                <a href="" class="main-header-btn">My cart <i class="fas fa-shopping-cart"></i></a>
+                <input type="search" class="main-header-input" placeholder="Buscar productos"><i class="fas fa-search"></i>
+
+
+            </div>
         </div>
-        <div id="suscripcion">
-            <form  class="correo" action="/suscripcion/"><input type="text"
-                    placeholder="Tu correo electrónico"><button>Suscribirse</button>
-            </form>
-        </div> </div>
-</header>
-        <div>
-            <nav id="menu">
-                <ul id="menu_principal">
-                  <img  width="40" height="60" src="Imagen/menu.svg" />
-                  <li><a href="index.html"> <strong>Inicio</strong></a></li>
-                  <li><a href="noticias.html"><strong>Noticias</strong></a></li>
-                  <li><a href="trucosguias.html"><strong>Guias y trucos</strong></a></li>
-                  <li><a href="contactos.html"><strong>Contáctanos</strong></a></li>
-                  <img  width="40" height="60" src="Imagen/menu.svg" />
-              </ul>
-          </nav>
+
+    </header>
+    <div class="container-slider">
+        <div class="slider" id="slider">
+            <div class="slider-section">
+                <img src="imagen/slider6.jpg" alt="" class="slider-img">
+                <div class="slider-content">
+                    <h2 class="slider-title">Men´s clothes</h2>
+                    <p class="slider-text">Cool summer sale 50%</p>
+                    <a href="" class="tip-btn">SHOP NOW</a>
+                </div>
+            </div>
+            <div class="slider-section">
+                <img src="imagen/slider2.jpeg" alt="" class="slider-img">
+                <div class="slider-content">
+                    <h2 class="slider-title">Women´s clothes</h2>
+                    <p class="slider-text">Cool summer sale 50%</p>
+                    <a href="" class="tip-btn">SHOP Now</a>
+                </div>
+            </div>
+            <div class="slider-section">
+                <img src="imagen/slider3.jpeg" alt="" class="slider-img">
+                <div class="slider-content">
+                    <h2 class="slider-title">Men´s clothes</h2>
+                    <p class="slider-text">Cool summer sale 50%</p>
+                    <a href="" class="tip-btn">SHOP Now</a>
+                </div>
+            </div>
+            <div class="slider-section">
+                <img src="imagen/slider4.jpeg" alt="" class="slider-img">
+                <div class="slider-content">
+                    <h2 class="slider-title">Women´s clothes</h2>
+                    <p class="slider-text">Cool summer sale 50%</p>
+                    <a href="" class="tip-btn">SHOP Now</a>
+                </div>
+            </div>
+        </div>
+        <button class="slider-btn slider-btn-right" id="btn-right">&#62;</button>
+        <button class="slider-btn slider-btn-left" id="btn-left">&#60;</button>
+
+    </div>
+    <main class="main">
+        <div class="container">
+            <h2 class="main-title">New Arrivals for you</h2>
+            <section class="container-products">
+                <div class="product">
+                    <img clas="product-img" src="imagen/zapatillas5.jpg" alt="">
+                    <div class="product-description">
+                        <h3 class="product-title">Nike 340</h3>
+                        <span class="product-price">$45.00</span>
+                    </div>
+                    <i class="product-icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img clas="product-img" src="imagen/zapatillas7.jpeg" alt="">
+                    <div class="product-description">
+                        <h3 class="product-title">Nike 500</h3>
+                        <span class="product-price">$34.00</span>
+                    </div>
+                    <i class="product-icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img clas="product-img" src="imagen/zapatillas3.jpg" alt="">
+                    <div class="product-description">
+                        <h3 class="product-title">Nike 600pro</h3>
+                        <span class="product-price">$72.00</span>
+                    </div>
+                    <i class="product-icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img clas="product-img" src="imagen/zapatillas5.jpg" alt="">
+                    <div class="product-description">
+                        <h3 class="product-title">Nike 120</h3>
+                        <span class="product-price">$49.00</span>
+                    </div>
+                    <i class="product-icon fas fa-cart-plus"></i>
+                </div>
+
+
+            </section>
+        </div>
+
+        <section class="container-testimonials">
+            <h2 class="section-title">Testimonials</h2>
+            <h3 class="testimonial-title">Anamaria</h3>
+            <p class="testimonial-txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, obcaecati molestiae. Cum tenetur perspiciatis recusandae aliquam nobis vel temporibus, fuga, iste explicabo modi voluptates ipsum suscipit facilis incidunt debitis sed earum voluptas
+                voluptatum numquam quibusdam perferendis et ea repellendus. Soluta id vero aperiam tempora omnis totam fugit consectetur quidem. Facilis cumque illum eos quisquam tempore ea aliquid, nemo esse et minus reiciendis error praesentium sunt
+                repellendus debitis nesciunt ab, eveniet nam molestiae quia aspernatur nostrum! Impedit a incidunt minus tempora fuga assumenda enim, dicta magnam facilis blanditiis saepe nisi nulla eligendi, voluptate illo eaque quae fugit velit pariatur
+                placeat nostrum.
+            </p>
+        </section>
+        <div class="container-editor">
+
+            <div class="editor-item">
+                <img src="imagen/fondo4.jpg" class="editor-img" alt="">
+                <p class="editor-circle">EXPRESS YOUR STYLE NOW</p>
+            </div>
+            <div class="editor-item">
+                <img src="imagen/fondo6.jpeg" class="editor-img" alt="">
+                <p class="editor-circle">EXPRESS YOUR STYLE NOW</p>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="main-title">Next generation </h2>
+            <section class="container-products">
+                <div class="product">
+                    <img clas="product-img" src="imagen/zapatillas5.jpg" alt="">
+                    <div class="product-description">
+                        <h3 class="product-title">Nike 340</h3>
+                        <span class="product-price">$45.00</span>
+                    </div>
+                    <i class="product-icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img clas="product-img" src="imagen/zapatillas7.jpeg" alt="">
+                    <div class="product-description">
+                        <h3 class="product-title">Nike 500</h3>
+                        <span class="product-price">$34.00</span>
+                    </div>
+                    <i class="product-icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img clas="product-img" src="imagen/zapatillas3.jpg" alt="">
+                    <div class="product-description">
+                        <h3 class="product-title">Nike 600pro</h3>
+                        <span class="product-price">$72.00</span>
+                    </div>
+                    <i class="product-icon fas fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img clas="product-img" src="imagen/zapatillas5.jpg" alt="">
+                    <div class="product-description">
+                        <h3 class="product-title">Nike 120</h3>
+                        <span class="product-price">$49.00</span>
+                    </div>
+                    <i class="product-icon fas fa-cart-plus"></i>
+                </div>
+
+
+            </section>
+        </div>
+        <section class="container-tips">
+            <div class="tips">
+                <i class="fas fa-hand-paper"></i>
+                <h2 class="tip-title">Satisfaction Guaranteed</h2>
+                <p class="tip-txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe accusantium, asperiores fugiat cupiditate laboriosam dignissimos explicabo, ad possimus quo, voluptatem aliquam nihil! Earum ratione mollitia sit animi dicta, porro incidunt!</p>
+                <a href="" class="tip-btn">SHOP NOW</a>
+            </div>
+            <div class="tips">
+                <i class="fas fa-rocket"></i>
+                <h2 class="tip-title">Fast Shipping</h2>
+                <p class="tip-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quas accusamus pariatur incidunt delectus autem, voluptatem blanditiis. Sapiente magnam aspernatur delectus fugit omnis sit dolor laborum, odio natus consequatur aliquid.</p>
+                <a href="" class="tip-btn">SHOP NOW</a>
+            </div>
+            <div class="tips">
+                <i class="fas fa-cog"></i>
+                <h2 class="tip-title">UV Protection</h2>
+                <p class="tip-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ad neque quisquam laboriosam. Molestias, doloribus minus non explicabo temporibus reiciendis, qui perferendis dicta voluptatem incidunt eveniet harum, nulla porro dolor.</p>
+                <a href="" class="tip-btn">SHOP NOW</a>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="footer-section">
+            <h2 class="footer-title">ABOUT US</h2>
+            <p class="footer-txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur nesciunt molestiae, animi facilis distinctio mollitia ab, quisquam tempore doloremque, nam numquam. Voluptas et sint nam illo eius veritatis neque debitis!</p>
+        </div>
+        <div class="footer-section">
+            <h2 class="footer-title">Location</h2>
+            <p class="footer-txt">0926K 4th block building,King Avenue, New York City</p>
+            <h2 class="footer-title">Contact</h2>
+            <p class="footer-txt">Phone: +121 698 8907</p>
+            <p class="footer-txt">Email: info@example.com
+            </p>
+        </div>
+        <div class="footer-section">
+            <h2 class="footer-title">Quick Links</h2>
+            <p class="footer-txt"><a href="" class="footer-link">Home</a></p>
+            <p class="footer-txt"><a href="" class="footer-link">About</a></p>
+            <p class="footer-txt"><a href="" class="footer-link">Error</a></p>
+            <p class="footer-txt"><a href="" class="footer-link">Shop</a></p>
+            <p class="footer-txt"><a href="" class="footer-link">Contact Us</a></p>
+        </div>
+        <div class="footer-section">
+            <h2 class="footer-title">Sign up for your offers</h2>
+            <p class="footer-txt">By subscribing to our mailing list you will always get latest news and updates from us</p>
+            <input type="email" class="footer-input" placeholder="Enter your email">
 
         </div>
-<body class="fondo">
-    <div class="subfondo">
-        <div>
-            <button onclick="switchSheet()">&#x263e;</button>
-          </div>
-              <script src="modonoche.js"></script>
-              <main class="contenedor sombra">
-                <section class="form_wrap">
-            
-                    <section class="cantact_info">
-                        <section class="info_title">
-                            <span class="fa fa-user-circle"></span>
-                            <h2>INFORMACION<br>DE CONTACTO</h2>
-                        </section>
-                        <section class="info_items">
-                            <p><span class="fa fa-envelope"></span> RoshanLocation.contact@gmail.com</p>
-                            <p><span class="fa fa-mobile"></span> +1(585) 903-4567</p>
-        
-                        </section>
-                    </section>
-        
-                    <form action="" class="form_contact">
-                        <h2>Envia un Mensaje</h2>
-                        <div class="user_info">
-                            <label for="names">Nombres *</label>
-                            <input type="text" id="names"> 
-        
-                            <label for="phone">Telefono / Celular</label>
-                            <input type="text" id="phone">
-                            
-                            <label for="email">Correo Electronico *</label>
-                            <input type="text" id="email">
-        
-                            <label for="mensaje">Mensaje *</label>
-                            <textarea id="mensaje"></textarea>
-        
-                            <input type="button" value="Enviar Mensaje" id="btnSend">
-                        </div>
-                    </form>
-        
-                </section>
-            <!--Inicia-- Footer-->
-            <footer class="footer">
-                <div class="footer-left">
-                    <img src="./imagenes de trucosguias/logo 2.png" alt="">
-                    <p>"Roshanlocation" destinado a una pagina de videOjuegos. Conoce más sobre nosotros en las siguientes redes sociales! :)</p>
-                    <div class="socials">
-                        <a href="#"><img src="./imagenes de trucosguias/01.png"></i></a>
-                        <a href="#"><img src="./imagenes de trucosguias/02.png"></i></a>
-                        <a href="#"><img src="./imagenes de trucosguias/03.png"></i></a>
-                        <a href="#"><img src="./imagenes de trucosguias/04.png"></i></a>
-                        <a href="#"><img src="./imagenes de trucosguias/05.png"></i></a>
-                    </div>
-                </div>
-                <ul class="footer-right">
-                    <li>
-                        <h2>A la Vanguardia</h2>
-  
-                        <ul class="box">
-                            <li><a href="#">Ultimas Noticias de Juegos</a></li>
-                            <li><a href="#">XBOXONE</a></li>
-                            <li><a href="#">SONY</a></li>
-                            <li><a href="#">NINTENDO</a></li>
-                        </ul>
-                     </li>
-                     <li class="features">
-                        <h2>SubPaginas</h2>
-  
-                        <ul class="box">
-                            <li><a href="#">Noticias</a></li>
-                            <li><a href="#">Guias&Trucos</a></li>
-                            <li><a href="#">Contactanos</a></li>
-                        </ul>
-                     </li>
-                     <li>
-                        <h2>Address</h2>
-  
-                        <ul class="box">
-                            <li><a href="#">127, AV. AREQUIPA</a></li>
-                            <li><a href="#">ALT20 MANZ25, TORRES UGARTE</a></li>
-                            <li><a href="#">LIMA, PERÚ</a></li>
-                            <li><a href="#">CERTUS CICLO I</a></li>
-                        </ul>
-                     </li>
-                </ul>
-            </footer>
-            <!--Termina Footer-->
+        <p class="copy">@ 2021 Googles. All Rights Reserved | Design by Alucard</p>
+    </footer>
+    <script src="slider.js"></script>
+    <script src="menu.js"></script>
+
 </body>
 
-</html>
+</h
