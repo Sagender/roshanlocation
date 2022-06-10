@@ -231,9 +231,10 @@
         /*Estilos de productos*/
         
         .container-products {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-gap: 10px;
+            display:grid;
+            
+            grid-template-columns: repeat(4, 2fr);
+            grid-gap: 8px;
         }
         
         .product {
@@ -244,22 +245,22 @@
         }
         
         .product:before {
-            content: "New";
-            background: #FF4E00;
+            content: "Oferta";
+            background:#F7BD56; /*#FF4E00;*/
             padding: 10px;
             position: absolute;
-            width: 70px;
+            width: 40px;
             top: 10px;
-            left: 10px;
+            left: 20px;
             right: 10px;
             transform: rotate(-90deg);
             color: white;
         }
         
         .product-img {
-            width: 100%;
-            height: 120px;
-            object-fit: cover;
+            width: 90%;
+            height: 10px;
+            object-fit:cover;
         }
         
         .product-title {
