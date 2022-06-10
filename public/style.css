@@ -281,6 +281,11 @@
             color: #FF4E00;
         }
         /* final productos*/
+        .Container_Testimonios{
+           background-color: #555; 
+            padding: 50px;
+            margin: 20px 0;
+        }
         
         .container-testimonials {
             text-align: center;
@@ -375,7 +380,7 @@
         .main-footer {
             background: #151515;
             color: white;
-            padding: 30px 20px;
+            padding: 20px 10px;
         }
         
         .footer-title {
